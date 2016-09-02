@@ -122,7 +122,7 @@ var handle_request = function (param_text, callback) {
 
 var publish_message = function (payload) {
     request( {
-        url : "https://hooks.slack.com/services/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",
+        url : "", // incoming webhook url for the pgo channel
         method : "POST",
         headers : { "Content-Type" : "application/json" },
         body : JSON.stringify(payload)
